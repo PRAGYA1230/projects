@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscription Form</title>
+    <style>
+        #a{
+            height: 45px;
+            width: 400px;
+            margin: 15px;
+            background-color: black;
+            color: wheat;
+            border: none;
+            font-family: verdana;
+        }
+      textarea{
+          height: 75px;
+          width: 400px;
+          margin-left: 15px;
+          margin-bottom: 20px;
+          color: wheat;
+          background-color: black;
+          border: none;
+          font-family: verdana;
+          
+      }
+      .first{
+           background-color: burlywood;
+           box-shadow: 5px 5px 5px black;
+      }
+      body{
+          margin-left: 300px;
+          margin-right: 300px;
+          background-color: blanchedalmond;
+      }
+      #btn{
+          margin-left: 350px;
+          margin-bottom: 20px;
+          height: 50px;
+          width: 200px;
+          background-color: black;
+          color: red;
+          font-size: 30px;
+          font-family: courier new;
+          border-radius: 5px;
+      }
+      .heading{
+          font-size: 70px;
+          font-family: courier new;
+          color: indigo;
+          text-align: center;
+          text-shadow: 2px 2px 2px black;
+      }
+      #b{
+          font-size: 40px;
+          font-family: verdana;
+          color: indigo;
+          margin-left: 20px;
+      }
+      .second{
+        background-color: rgb(240, 138, 6);
+        box-shadow: 5px 5px 5px black;
+        padding: 50px;
+      }
+      ol{
+          list-style: none;
+          font-size: 25px;
+          font-family: verdana;
+          color: brown;
+          font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    <h1 class="heading">
+        SUBSCRIPTION FORM
+    </h1>
+    <div class="second">
+        <p class="c">
+            <ol>
+                <li>WEEKLY - Rs.30</li>
+                <li>MONTHLY - Rs.75</li>
+                <li>ANNUALLY - Rs.300</li>
+                <li>LIFE TIME - Rs.400</li>
+            </ol>
+        </p>
+   </div> <br>
+    <div class="first">
+        <form>
+            <input type="text" placeholder="ENTER YOUR FIRST NAME" id="a">
+            <input type="text" placeholder="ENTER YOUR LAST NAME" id="a"><br>
+            <input type="number" placeholder="ENTER YOUR MOBILE NUMBER" id="a"><br>
+            <input type="email" placeholder="ENTER YOUR EMAIL-ID" id="a"><br>
+            <input type="date" id="a"><br>
+            <h1 id="b">ADDRESS</h1> <textarea></textarea><br>
+            <input type="submit" value="SUBMIT" id="btn">
+        </form>
+    </div> <br>
+</body>
+</html>

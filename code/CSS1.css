@@ -1,0 +1,45 @@
+.cover{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://i.ytimg.com/vi/Oc7WuYfGbrA/maxresdefault.jpg");
+    background-size: cover;
+}
+.intro{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRI_BiiRQT1SEnYXvPCvU2DA61f2Fp1Biw56Q&usqp=CAU");
+}
+.content{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1361.25&fit=crop&crop=faces");
+    background-size: cover;
+}
+.last{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWIUAPo6G9HkFVgc1CocyF4GLr8vx9vel7FQ&usqp=CAU");
+    background-size: 500px
+    }
+.chapter1{
+    height: 750px;
+    width: 1500px;   
+    background-color: yellow;
+}
+.chapter-2{
+    height: 750px;
+    width: 1500px;   
+    background-color: magenta;
+
+}
+.chapter-3{
+    height: 750px;
+    width: 1500px;   
+    background-color: cyan
+}
+.bcover{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://vignette.wikia.nocookie.net/scandinavian-voice-over/images/7/73/AliceInWonderland.jpeg/revision/latest/scale-to-width-down/340?cb=20170427200812");
+    background-size:500px
+    }

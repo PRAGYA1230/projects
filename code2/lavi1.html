@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS EVENTS</title>
+    <style>
+        body{
+            margin-bottom: 200px;
+        }
+        #a{
+            height: 100px;
+            width: 150px;
+            background-color: coral;
+        }
+        #b{
+            height: 100px;
+            width: 150px;
+            background-color: springgreen;
+        }
+        #c{
+            height: 200px;
+            width: 250px;
+            background-image: url("https://i.pinimg.com/originals/f1/45/b7/f145b79b159ce12f25f6621cdbab65f5.jpg");
+            background-size: cover;
+        }
+        #c:hover{
+            height: 200px;
+            width: 250px;
+            background-image: url("https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            background-size: cover;
+        }
+        #f{
+            height: 100px;
+            width: 150px;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="Fun first()">
+        Click Here
+    </button> <br><br>
+    <div id="a" onmouseover="funSecond()"></div> <br>
+    <div id="b" onmouseout="funThird()"></div> <br>
+    <h1>Using CSS</h1>
+    <div id="c"></div> <br> <br>
+
+    <h1>Using JS</h1>
+    <img src="https://i.pinimg.com/originals/5d/77/6d/5d776d9a17a081984af7b5a55f65738b.jpg" height="200px" width="300px" id="d" onmouseover="makeNight()" onmouseout="makeDay()"> 
+
+    <br><br><br><br>
+
+    <img src="https://3.imimg.com/data3/OD/ST/MY-2580748/led-bulb-500x500.jpg" height="300px" width="220px" id="e" ><br>
+     <button onclick="bulbON()">ON</button>
+     <button onclick="bulbOFF()">OFF</button>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div id="f" onclick="oneClick()" onmouseover="mouseOver()" onmouseout="mouseOut()" ondblclick="twoClick()">
+     </div>
+    <script>
+        function funFirst(){
+            alert("First Function");
+        }
+        function funSecond(){
+            alert("Second Function");
+        }
+        function funThird(){
+            alert("Third Function");
+        }
+        function makeNight(){
+            document.getElementById("d").src = "https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616__340.jpg";
+        }
+        function makeDay(){
+            document.getElementById("d").src = "https://i.pinimg.com/originals/5d/77/6d/5d776d9a17a081984af7b5a55f65738b.jpg";
+        }
+        function bulbON(){
+            document.getElementById("e").src = "https://cdn.mos.cms.futurecdn.net/8URLqwFeJihbNpn3gByhg3-1200-80.jpg";
+        }
+        function bulbOFF(){
+            document.getElementById("e").src = "https://3.imimg.com/data3/OD/ST/MY-2580748/led-bulb-500x500.jpg";
+        }
+        function oneClick(){
+          document.getElementById("f").style.background = "violet";
+        }
+        function twoClick(){
+            document.getElementById("f").style.background = "orange";
+        }
+        function mouseOver(){
+            document.getElementById("f").style.background = "black";
+        }
+        function mouseOut(){
+            document.getElementById("f").style.background = "indigo";
+        }
+    </script>
+</body>
+</html>

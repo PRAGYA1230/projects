@@ -1,0 +1,88 @@
+
+.bg{
+    height: 890px;
+    width: 800px;
+    font-size: 30px;
+    background-color: rgb(75, 0, 130);
+    color: rgba(0, 0, 0,0.7);
+}
+.cover{
+    height: 1500px;
+    width: 1500px;
+    background-image: url("https://i.pinimg.com/736x/4c/72/c8/4c72c8e02e2c805424e0558bc685c018.jpg");
+    background-size: cover;
+}
+.intro{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRI_BiiRQT1SEnYXvPCvU2DA61f2Fp1Biw56Q&usqp=CAU");
+}
+.content{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1361.25&fit=crop&crop=faces");
+    background-size: cover;
+}
+.last{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://images1.pixlis.com/background-image-plaid-checkered-seamless-tileable-lily-white-mustard-235hxb.png");
+    background-size: cover;
+    padding-top: 180px;
+    
+}
+.chapter-1{
+    height: 750px;
+    width: 1500px;   
+    background-color:cyan;
+}
+.chapter-2{
+    height: 750px;
+    width: 1500px;   
+    background-color: chartreuse;
+}
+.bcover{
+    height: 750px;
+    width: 1500px;
+    background-color: deeppink;
+}
+#line{
+    height: 7px;
+    width: 1500px;
+    background-color: crimson;
+    margin-top: 15px;
+}
+#a{
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+    color: gold;
+    text-shadow: 3px 3px 3px black;
+}
+#b{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+    text-shadow: 3px 3px 3px black;
+}
+#c{
+    font-size: 70px;
+    font-family: cursive;
+    color: gold;
+    text-shadow: 3px 3px 3px black;
+}
+#d{
+   font-size: 150px;
+   font-family: cursive;
+   padding-top: 50px;
+   color: rgb(221, 12, 64);
+   text-align: center;
+   border: 2px solid red;
+   margin-left: 100px;
+   margin-right: 100px;
+   box-shadow: 10px 10px 10px red
+   }
+#ch1,#ch2,#ch3{
+    text-indent: 8%;
+}

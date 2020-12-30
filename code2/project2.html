@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Story</title>
+    <style>
+        #a-1,#a-2,#a-3,#a-4{
+            height: 40px;
+            width: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            background-color: darkcyan;
+            color: burlywood;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #b-1,#b-2,#b-3,#b-4,#c-1,#c-2,#c-3,#c-4{
+            height: 40px;
+            width: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            background-color: mediumspringgreen;
+            color: crimson;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #d-1,#d-2,#d-3,#d-4{
+            height: 40px;
+            width: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            background-color: black;
+            color: crimson;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .q{
+            font-size: 35px;
+            font-family: cursive;
+            font-weight: 700;
+            background-color: burlywood;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+        }
+        #btn-1{
+            height: 60px;
+            width: 200px;
+            font-weight: bold;
+            font-size: 20px;
+            color: cyan;
+            background-color: darkblue;
+            border-radius: 6px;
+            margin-top: 50px;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <p class="q">1. Which name do you want to select for you?</p>
+    <table>
+        <tr>
+            <td> <div id="a-1" onclick="removeQuest_1a()">deppanshu</div> </td>
+            <td> <div id="a-2" onclick="removeQuest_1b()">harshal</div> </td>
+            <td> <div id="a-3" onclick="removeQuest_1c()">nalin</div> </td>
+            <td> <div id="a-4" onclick="removeQuest_1d()">maulika</div> </td>
+        </tr>
+    </table>
+    <p class="q">2. Which name do you want to select for your friend?</p>
+    <table>
+        <tr>
+            <td> <div id="b-1"onclick="removeQuest_1a()">purvi</div> </td>
+            <td> <div id="b-2"onclick="removeQuest_1b()">Riyanshi</div> </td>
+            <td> <div id="b-3"onclick="removeQuest_1c()">Neha</div> </td>
+            <td> <div id="b-4"onclick="removeQuest_1d()">Kriti</div> </td>
+        </tr>
+    </table>
+    <p class="q">3. Where do you want to go?</p>
+    <table>
+        <tr>
+            <td> <div id="c-1"onclick="removeQuest_2a()">Park</div> </td>
+            <td> <div id="c-2"onclick="removeQuest_2b()">Playground</div> </td>
+            <td> <div id="c-3"onclick="removeQuest_2c()">Mall</div> </td>
+            <td> <div id="c-4"onclick="removeQuest_2d()">Market</div> </td>
+        </tr>
+    </table>
+    <p class="q">4. what do you want to eat?</p>
+    <table>
+        <tr>
+            <td> <div id="d-1"onclick="removeQuest_3a()">Burger</div> </td>
+            <td> <div id="d-2"onclick="removeQuest_3b()">Pizza</div> </td>
+            <td> <div id="d-3"onclick="removeQuest_3c()">Maggie</div> </td>
+            <td> <div id="d-4"onclick="removeQuest_3d()">Momos</div> </td>
+        </tr>
+    </table>
+    <button id="btn-1">
+        Create Your Story
+    </button>
+    <script>
+        function removeQuest_1a(){
+           document.getElementById("a-1").style.visibility = "visible";
+           document.getElementById("a-2").style.visibility = "hidden";
+           document.getElementById("a-3").style.visibility = "hidden";
+           document.getElementById("a-4").style.visibility = "hidden";
+        }
+        function removeQuest_1a(){
+            document.getElementById("a-1").style.visibility = "hidden";
+           document.getElementById("a-2").style.visibility = "visible";
+           document.getElementById("a-3").style.visibility = "hidden";
+           document.getElementById("a-4").style.visibility = "hidden";
+        }
+        function removeQuest_1a(){
+            document.getElementById("a-1").style.visibility = "hidden";
+           document.getElementById("a-2").style.visibility = "hidden";
+           document.getElementById("a-3").style.visibility = "visible";
+           document.getElementById("a-4").style.visibility = "hidden";
+        }
+        function removeQuest_1a(){
+            document.getElementById("a-1").style.visibility = "hidden";
+           document.getElementById("a-2").style.visibility = "hidden";
+           document.getElementById("a-3").style.visibility = "hidden";
+           document.getElementById("a-4").style.visibility = "visible";
+        }
+        function removeQuest_1b(){
+            document.getElementById("b-1").style.visibility = "visible";
+           document.getElementById("b-2").style.visibility = "hidden";
+           document.getElementById("b-3").style.visibility = "hidden";
+           document.getElementById("b-4").style.visibility = "hidden";
+        }
+        function removeQuest_1b(){
+            document.getElementById("b-1").style.visibility = "hidden";
+           document.getElementById("b-2").style.visibility = "visible";
+           document.getElementById("b-3").style.visibility = "hidden";
+           document.getElementById("b-4").style.visibility = "hidden";
+        }
+        function removeQuest_1b(){
+            document.getElementById("b-1").style.visibility = "hidden";
+           document.getElementById("b-2").style.visibility = "hidden";
+           document.getElementById("b-3").style.visibility = "visible";
+           document.getElementById("b-4").style.visibility = "hidden";
+        }
+        function removeQuest_1b(){
+           document.getElementById("b-1").style.visibility = "hidden";
+           document.getElementById("b-2").style.visibility = "hidden";
+           document.getElementById("b-3").style.visibility = "hidden";
+           document.getElementById("b-4").style.visibility = "visible";
+        }
+        function removeQuest_1c(){
+            document.getElementById("c-1").style.visibility = "visible";
+           document.getElementById("c-2").style.visibility = "hidden";
+           document.getElementById("c-3").style.visibility = "hidden";
+           document.getElementById("c-4").style.visibility = "hidden";
+        }
+        function removeQuest_1c(){
+            document.getElementById("c-1").style.visibility = "visible";
+           document.getElementById("c-2").style.visibility = "hidden";
+           document.getElementById("c-3").style.visibility = "hidden";
+           document.getElementById("c-4").style.visibility = "hidden";
+        }
+        function removeQuest_1c(){
+            document.getElementById("c-1").style.visibility = "hidden";
+           document.getElementById("c-2").style.visibility = "hidden";
+           document.getElementById("c-3").style.visibility = "visible";
+           document.getElementById("c-4").style.visibility = "hidden";
+        }
+        function removeQuest_1c(){
+            document.getElementById("c-1").style.visibility = "hidden";
+           document.getElementById("c-2").style.visibility = "hidden";
+           document.getElementById("c-3").style.visibility = "hidden";
+           document.getElementById("c-4").style.visibility = "visible";
+        }    
+        function removeQuest_1d(){
+            document.getElementById("d-1").style.visibility = "visible";
+           document.getElementById("d-2").style.visibility = "hidden";
+           document.getElementById("d-3").style.visibility = "hidden";
+           document.getElementById("d-4").style.visibility = "hidden";
+        }
+        function removeQuest_1d(){
+            document.getElementById("d-1").style.visibility = "visible";
+           document.getElementById("d-2").style.visibility = "hidden";
+           document.getElementById("d-3").style.visibility = "hidden";
+           document.getElementById("d-4").style.visibility = "hidden";
+        }
+        function removeQuest_1d(){
+            document.getElementById("d-1").style.visibility = "hidden";
+           document.getElementById("d-2").style.visibility = "hidden";
+           document.getElementById("d-3").style.visibility = "visible";
+           document.getElementById("d-4").style.visibility = "hidden";
+        }
+        function removeQuest_1d(){
+            document.getElementById("d-1").style.visibility = "hidden";
+           document.getElementById("d-2").style.visibility = "hidden";
+           document.getElementById("d-3").style.visibility = "hidden";
+           document.getElementById("d-4").style.visibility = "visible";
+        } 
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="user" placeholder="USERNAME"> <br>
+        <input type="password" id="pass" placeholder="PASSWORD"> <br>
+        <input type="email" id="em" placeholder="EMAIL-ID"> <br>
+        <input type="number" id="num" placeholder="NUMBER"> <br>
+        <input type="date" id="dt"> <br>
+        <input type="time" id="tm"> <br>
+        <input type="color" id="cl"> <br>
+        <input type="range" id="rg"> <br>
+        <input type="submit" value="SUBMIT" onclick="showOutput()">
+    </form>
+    <script>
+        function showOutput(){
+            var username = document.getElementById("user").value;
+            var password = document.getElementById("pass").value;
+            var email = document.getElementById("em").value;
+            var number = document.getElementById("num").value;
+            var date = document.getElementById("dt").value;
+            var time = document.getElementById("tm").value;
+            var color = document.getElementById("cl").value;
+            var range = document.getElementById("rg").value;
+            document.write("Username : "+username+"<br>");
+            document.write("Email : "+email+"<br>");
+            document.write("Number : "+number+"<br>");
+            document.write("Date : "+date+"<br>");
+            document.write("Time : "+time+"<br>");
+            document.write("Color : "+color+"<br>");
+            document.write("Range : "+range+"<br>");
+            document.write("Password : "+password);
+        }
+       // showOutput();
+    </script>
+</body>
+</html>
